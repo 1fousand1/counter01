@@ -1,0 +1,28 @@
+.Universal-btn button{
+    min-height:70px;
+    min-width:130px;
+    color:#2A2C36;
+    border:none;
+    border-radius: 5px;
+    background-color: #3ED5F6;
+    font-size: 24pt;
+    font-weight:bold;
+}
+
+.Universal-btn button:hover {
+    background-color: #32ABC6;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Universal-btn button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.Universal-btn button:disabled {
+    background-color: #B0B0B0;
+    color: #8C8C8C;
+    cursor: not-allowed;
+}

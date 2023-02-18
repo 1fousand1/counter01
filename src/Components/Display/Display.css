@@ -1,0 +1,17 @@
+.Counter-Display-Value{
+    color: #4B90AA;
+    font-size: 120px;
+}
+
+.Error{
+    color: red;
+}
+
+.Counter-display-prompt{
+    color: #3ED5F6;
+}
+
+.Counter-display-red{
+    color:red;
+    font-size: 120px;
+}
