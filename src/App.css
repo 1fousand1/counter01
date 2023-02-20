@@ -76,7 +76,6 @@ html, body {
 }
 
 
-
 .Counter-btns{
   display: flex;
   flex-direction: row;
@@ -89,12 +88,7 @@ html, body {
 }
 
 
-.Settings-display{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: inherit;
-}
+/*--------------------------*/
 
 .Settings-title{
   display: flex;
@@ -104,38 +98,26 @@ html, body {
   color:#3ED5F6;
 }
 
+/*--------------------------*/
+
 .inputMaxValue{
   border-radius: 5px;
-  border-color: #3ED5F6;
-  width:140px;
-  font-size: 35px;
-  text-align: center;
-
-}
-.inputMaxValue{
-  width:140px;
-  font-size: 35px;
-  text-align: center;
   border: 4px solid #0066ff;
   outline: #0066ff;
+  width:140px;
+  font-size: 35px;
+  text-align: center;
 
 }
+
 .inputStartValue{
   border-radius: 5px;
-  border-color: #3ED5F6;
-  width:140px;
-  font-size: 35px;
-  text-align: center;
-
-}
-.inputStartValue{
-  width:140px;
-  font-size: 35px;
-  text-align: center;
   border: 4px solid #0066ff;
+  width:140px;
+  font-size: 35px;
+  text-align: center;
   outline: #0066ff;
 }
-
 
 .inputMaxValue-error{
   border-radius: 5px;
